@@ -1,29 +1,25 @@
 
 
-Profanity rates and reviews the text on a website, to see if its suitable and giving the website a Profanity rating. It's speedy and generates a JSON responce with a profanity rating, percentage and all Profanity words .
+MrScraper gets the text from the website into an array.
 
 
 ## Install
 
 ```
-$ npm install --save profanity
+$ npm install --save mrscraper
 ```
 
 ## Usage
 
 ```js
-var profanity = require("./profanity.js");
+var mrscraper = require("./mrscraper.js");
 var chalk = require('chalk');
 
+mrscraper("http://www.tested.com", function (response) {
 
+    console.log(chalk.blue(response));
 
-    profanity("sex", function (response) {
-        if (response === "false") {
-            console.log(chalk.blue(response));
-        } else {
-            console.log(chalk.red(response));
-        }
-    });
+});
 
 ```
 
