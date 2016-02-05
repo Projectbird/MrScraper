@@ -2,7 +2,6 @@ var request = require("request");
 var sanitizeHtml = require('sanitize-html');
 
 module.exports = function (urls, callback) {
-
     request({
         uri: urls,
     }, function (error, response, body) {

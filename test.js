@@ -1,4 +1,4 @@
-var mrscraper = require("./mrscraper.js");
+var mrscraper = require("./main.js");
 var chalk = require('chalk');
 
 
