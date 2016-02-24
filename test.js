@@ -9,6 +9,4 @@ mrscraper("http://www.porn.com", function (response) {
         console.log(chalk.blue(response[i]));
     }
 
-
-
 });

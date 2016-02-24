@@ -1,6 +1,6 @@
 
 
-MrScraper gets the text from the website into an array.
+MrScraper pases the text from any website and returns it as an array.
 
 
 ## Install
@@ -23,11 +23,14 @@ mrscraper("http://www.tested.com", function (response) {
 
 ```
 
-## Team
 
-[![Robert Gabriel](https://avatars2.githubusercontent.com/u/6218780?v=3&s=460)](http://www.projectbird.com) | 
----|---
-[Robert Gabriel](http://www.projectbird.com)  |
+## Test
+Run the following to try it out 
+
+```js
+npm test
+
+```
 
 
 ## License
