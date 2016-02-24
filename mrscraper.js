@@ -1,6 +1,7 @@
 var request = require("request");
 var sanitizeHtml = require('sanitize-html');
-
+var mrscraper = require("mrscraper");
+var chalk = require('chalk');
 module.exports = function (urls, callback) {
     request({
         uri: urls,
