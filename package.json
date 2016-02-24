@@ -15,7 +15,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Projectbird/robin-test.git"
+        "url": "git+https://github.com/RobertJGabriel/MrScraper.git"
     },
     "keywords": [
     "flitering",
@@ -26,7 +26,7 @@
     "author": "Robert Gabriel",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Projectbird/profanity/issues"
+        "url": "https://github.com/RobertJGabriel/MrScraper/issues"
     },
-    "homepage": "https://github.com/Projectbird/profanity#readme"
+    "homepage": "https://github.com/RobertJGabriel/MrScraper#readme"
 }
