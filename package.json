@@ -1,32 +1,32 @@
 {
-    "name": "scraper-web",
-    "version": "1.0.1",
-    "description": "",
-    "main": "mrscraper.js",
-    "dependencies": {
-        "chalk": "^1.1.1",
-        "request": "^2.65.0",
-        "sanitize-html": "^1.11.1",
-        "thesaurus": "0.0.0"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "test": "node test.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/RobertJGabriel/MrScraper.git"
-    },
-    "keywords": [
+  "name": "text-scraping",
+  "version": "0.0.8",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "request": "^2.65.0",
+    "sanitize-html": "^1.11.1",
+    "thesaurus": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node assets/tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertJGabriel/text-scraping.git"
+  },
+  "keywords": [
     "flitering",
-    "system",
-    "robin",
-      "profanity"
+    "prasing",
+    "scraping",
+    "text"
   ],
-    "author": "Robert Gabriel",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/RobertJGabriel/MrScraper/issues"
-    },
-    "homepage": "https://github.com/RobertJGabriel/MrScraper#readme"
+  "author": "Robert James Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertJGabriel/text-scraping/issues"
+  },
+  "homepage": "https://github.com/RobertJGabriel/text-scraping#readme"
 }
