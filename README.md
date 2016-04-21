@@ -1,38 +1,33 @@
 
+![alt text](assets/img/readme.jpg "Firebase Yeti")
+# About
+This project does what it says on the tin. Send the url and it will scrap the page and parse the html from it returning the text from it.
 
-MrScraper pases the text from any website and returns it as an array.
+# Installation
 
-
-## Install
-
+```shell
+npm install text-scraping
 ```
-$ npm install --save mrscraper
-```
 
-## Usage
+# Usage
+You need to pass one thing into it.
 
-```js
-var mrscraper = require("./mrscraper.js");
-var chalk = require('chalk');
+## Test
+Run the example by running
+``` npm test ```
 
-mrscraper("http://www.tested.com", function (response) {
+## Code
+```javascript
+var text-scraping = require('text-scraping');
 
-    console.log(chalk.blue(response));
-
+scraping("http://www.projectbird.com", function(response) {
+console.log(response);//Returns text
 });
 
 ```
 
+# Example
+As you can see
+Stupid project really but a nice on all the same.
 
-## Test
-Run the following to try it out 
-
-```js
-npm test
-
-```
-
-
-## License
-
-MIT © [Robert Gabriel](http://www.projectbird.com) 
+![alt text](assets/img/screenshot.png "Firebase Yeti")
